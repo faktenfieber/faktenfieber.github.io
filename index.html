@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faktenfieber</title>
+<style>
+  :root { --bg:#0f1115; --fg:#f2f2f2; --muted:#a7adb7; --accent:#ffd400; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 16px; }
+  h1 { font-size: 2.6rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h1 span { color: var(--accent); }
+  p { color: var(--muted); line-height: 1.6; }
+  a { color: var(--accent); }
+  .links a { display:inline-block; margin: 8px 16px 0 0; }
+  .api { margin-top: 40px; padding: 16px; border: 1px solid #2a2f38; border-radius: 12px; }
+  .api h2 { font-size: 1rem; margin: 0 0 6px; display:flex; align-items:center; gap:8px; }
+  .api h2 i { display:inline-block; width:22px; height:16px; background:#ff0000; border-radius:4px; position:relative; }
+  .api h2 i::after { content:""; position:absolute; left:8px; top:4px; border-left:7px solid #fff; border-top:4px solid transparent; border-bottom:4px solid transparent; }
+  .api p { margin: 0; font-size: .95rem; }
+  footer { margin-top: 48px; font-size: .9rem; color: var(--muted); line-height: 2; }
+  footer a { margin-right: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fakten<span>fieber</span></h1>
+  <p>Verrückte, wahre Fakten und Geschichten in unter 60 Sekunden – von früher bis heute,
+     recherchiert aus Wikipedia und vor jedem Video geprüft.</p>
+  <div class="links">
+    <a href="https://www.youtube.com/@faktenfieber.official">YouTube</a>
+    <a href="https://www.instagram.com/faktenfieber.official">Instagram</a>
+  </div>
+  <section class="api">
+    <h2><i></i>Faktenfieber Uploader · nutzt die YouTube API Services</h2>
+    <p>Unser internes Werkzeug „Faktenfieber Uploader“ lädt unsere eigenen Videos über die YouTube API Services auf
+       unseren YouTube-Kanal hoch. Es gelten die <a href="https://www.youtube.com/t/terms">YouTube-Nutzungsbedingungen</a>
+       und die <a href="https://policies.google.com/privacy">Google-Datenschutzerklärung</a>. Details:
+       <a href="datenschutz.html">Datenschutzerklärung</a> · <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></p>
+  </section>
+  <footer>
+    <a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a><a href="quellen.html">Quellen</a><br>
+    Kontakt: faktenfieber.official@gmail.com
+  </footer>
+</main>
+</body>
+</html>
